@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Manager</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Task Manager</h1>
+
+        <div class="form">
+
+            <input type="text"
+                   id="title"
+                   placeholder="Task title">
+
+            <input type="text"
+                   id="description"
+                   placeholder="Task description">
+
+            <button onclick="createTask()">
+                Add Task
+            </button>
+
+        </div>
+
+        <hr>
+
+        <h2>Tasks</h2>
+
+        <p id="taskCounter"></p>
+
+        <ul id="taskList">
+        </ul>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
